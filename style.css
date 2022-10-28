@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* color: #733900; */
+    box-sizing: border-box;
+}
+body {
+    /* overflow: hidden; */
+}
+.navbar {
+    /* background-color: gray; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.nav-menu {
+    width: 1000px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    color: #733900;
+    font-size: 1.2rem;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.nav-icon {
+    color: #733900;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.intro-page {
+    background-image: url("/assets/background/sunrise.png");
+    /* width: 100%;  */
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro-page-content {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.intro-page-content-body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.font-lora {
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #733900;
+}
+
+.font-secularOne {
+    font-family: "Secular One", sans-serif;
+    font-size: 3.9rem;
+    font-weight: 700;
+    line-height: 4rem;
+    color: #733900;
+}
+
+.font-openSans {
+    margin-top: 10px;
+    color: #733900;
+    font-family: "Open Sans";
+}
+
+.description-page {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("/assets/background/leaf.png");
+    /* z-index: -10000; */
+    /* margin-top: -250px; */
+}
+
+.description-page-title {
+    font-family: "Secular One", sans-serif;
+    font-size: 3.9rem;
+    font-weight: 700;
+    line-height: 4rem;
+    color: #039b39;
+}
+.description-page-content {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.description-page-content-body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description-page-content-body hr {
+    align-self: flex-end;
+    color: #039b39;
+    margin: 30px 0;
+}
+
+.description-page-text {
+    font-family: "Open Sans";
+    color: #733900;
+    font-size: 1rem;
+}
+
+.batuk-page {
+    /* height: 100vh; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-image: url("/assets/background/vector.svg"); */
+    margin-top: -230px;
+    margin-bottom: -55px;
+    /* z-index: 1000; */
+
+    height: 50vh;
+    background-color: #c37c2d;
+    /* width: 4000px; */
+    transform: skew(0deg, -3deg);
+}
+.batuk-page-text-container {
+    height: 50vh;
+    transform: skew(0deg, 3deg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    color: #fff;
+}
+
+.batuk-page-body-1 {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: flex-end;
+}
+.batuk-page-body-1 span {
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.batuk-page-body-1 h3 {
+    font-family: "Secular One", sans-serif;
+    font-size: 5rem;
+}
+
+.batuk-page-body-1 p {
+    font-family: "Open Sans";
+    font-size: 1.2rem;
+}
+.batuk-page-body-2 {
+    width: 33%;
+}
+
+.batuk-page-body-2 h5 {
+    background-color: #fff;
+    padding: 10px 10px;
+    font-family: "Open Sans";
+    font-size: 1.4rem;
+    color: #c37c2d;
+    font-weight: 700;
+}
+.batuk-page-body-2 p {
+    font-family: "Open Sans";
+    margin: 10px 0;
+}
+
+.batuk-page-body-3 {
+    width: 33%;
+}
+.batuk-page-body-3 h5 {
+    background-color: #fff;
+    padding: 10px 10px;
+    font-family: "Open Sans";
+    font-size: 1.4rem;
+    color: #c37c2d;
+    font-weight: 700;
+}
+.batuk-page-body-3 p {
+    font-family: "Open Sans";
+    margin: 10px 0;
+}
